@@ -1,0 +1,70 @@
+
+
+
+Crear Plugins para wordpress
+
+
+	Taller Práctico de Creación de Plugins para WordPress (7 videos)
+	
+		https://www.youtube.com/playlist?list=PLbP-b3gf8hAVG0qm0uGO-muuIMxoX2ota
+
+
+
+---------------------------------------------------------------------------------------------------------
+
+API plugins wordpress
+
+https://codex.wordpress.org/Plugin_API/Filter_Reference
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+---------------------------------------------------------------------------------------------------------
+
+Notas Generales:
+________________
+
+
+	
+	_Wordpress, es un CMS, creado en PHP, como estructura primaria
+
+
+
+---------------------------------------------------------------------------------------------------------
+
+Core y Estructura de Wordpress:
+_______________________________
+
+
+	
+	_al instalar Wordpress, se instalará en la carpeta principal del proyecto la siguiente estructura
+
+	de archivos
+
+
+		_carpeta/wp-admin:
+
+			_
+
+
+		_carpeta/wp-content:
+
+			_
+
+
+		_carpeta/wp-includes:
+
+			_
+
+
+		_archivos generales del core
+
+
+
+
+
+
+

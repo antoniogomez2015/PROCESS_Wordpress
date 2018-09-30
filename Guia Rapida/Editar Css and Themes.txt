@@ -1,0 +1,58 @@
+
+
+
+Tips para editar Css y themes en wordpress
+
+
+	https://www.youtube.com/watch?v=C-jElsTgvmA
+
+
+	https://www.youtube.com/watch?v=AWSz_YoNsbs
+	https://www.youtube.com/watch?v=a7h3qk8Wpi4
+
+	[Curso] Como crear un theme para wordpress (con Responsive Design) 1.- Introducción
+		https://www.youtube.com/watch?v=L0SrVrpegBw&list=PLhSj3UTs2_yUwYp_ueyulofOhRBKYa4j-
+
+
+	VideoTutorial 1 Taller Práctico de Creación de Plugins para WordPress. Introducción
+		https://www.youtube.com/watch?v=rX8E7gCpe0c
+
+
+	Bases de datos con wordpress
+		https://www.youtube.com/watch?v=DdbaUPHD_Uc
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+Css:
+____
+
+
+	_para ésto, lo primero es hacer un tema hijo
+
+
+	_luego vamos a la sección de Dashboar/apariencia/editor, para así, tener acceso al css,
+
+	sólo del tema hijo
+
+
+	_luego abrimos nuestro proyecto de wordpress, en google chrome, y nos posaremos sobre el
+
+	elemento deseado e inspeccionaremos éste elemento, para ésto, hago mouse right click/,
+
+	y selecciono la opción de "inspeccionar elemento", así, se abrirá la pantalla se dividirá
+
+	en dos y mostrará la estructura de archivos, más en la ventana derecha nos mostrará las
+
+	reglas de estilo
+
+
+	_de ésta manera podremos copiar las reglas desadas del inspector de elementos del navegador
+
+	y luego volver el dashboar, de wordpress, "Dashboar/apariencia/editor", y darle al shortcut,
+
+	de búsquedas, shortcut "Control + F"

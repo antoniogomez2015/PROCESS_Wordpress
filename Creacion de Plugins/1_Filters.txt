@@ -1,0 +1,45 @@
+
+
+
+Crear Plugins para wordpress
+
+
+	Taller Práctico de Creación de Plugins para WordPress (7 videos)
+	
+		https://www.youtube.com/playlist?list=PLbP-b3gf8hAVG0qm0uGO-muuIMxoX2ota
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+---------------------------------------------------------------------------------------------------------
+
+Filter Description:
+___________________
+
+
+	
+	_los filtros en wordpress, son funciones ó nombres que wordpress, le da a los diferentes elementos
+
+	que nos permiten configurar en tiempo de ejecución
+
+	_ej: éstos son arreglos para realizar un función específica, como por ejemplo cambiar la fecha, cmabiar
+
+	estilos, diseño, cargar código, cambiar contenido, otros
+
+
+
+---------------------------------------------------------------------------------------------------------
+
+Filter Características:
+_______________________
+
+
+	
+	_así, podremos acceder a cualquier parte definida del documento ó core, de wordpress, y crear
+
+	funciones para modificar éstas
+
+

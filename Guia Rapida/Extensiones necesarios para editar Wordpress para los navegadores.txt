@@ -1,0 +1,31 @@
+
+
+
+plugins para los navegadores para editar wordpress, en éstos:
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+-------------------------------------------------------------------------------------------------------´
+
+Firebug:
+________
+
+
+	_ésta permite seleccionar elementos del documento, identificarlos y ubicar su Css
+
+
+	_ésta extensión esta disponible para firefox, como para chrome, otros
+
+
+
+web developer tools:
+____________________
+
+
+	_èsta opción ofrece una serie de herramientas dedicadas para el desarrollador
+
+	

@@ -1,0 +1,95 @@
+
+
+
+Crear Plugins para wordpress
+
+
+	Taller Práctico de Creación de Plugins para WordPress (7 videos)
+	
+		https://www.youtube.com/playlist?list=PLbP-b3gf8hAVG0qm0uGO-muuIMxoX2ota
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+---------------------------------------------------------------------------------------------------------
+
+Directorios y Archivos:
+_______________________
+
+
+	
+	_para crear un plugins, lo primero es crear un carpeta para éste, yendo ha ej
+
+	"C:\xampp\htdocs\proof\wp-content\plugins\", y allí, crar una carpeta a la cuál, le asignaremos el 
+
+	nombre que llevará ó tendrá el plugins, en este caso le asignaremos el nombre de "tonyMaster"
+
+
+
+
+---------------------------------------------------------------------------------------------------------
+
+Plugins y Archivos para su funcionamiento:
+__________________________________________
+
+
+	
+	_un plugins requiere mínimo un archivo .php, con el mismo nombre que la carpeta que conforma el 
+
+	plugins, ej: "tonyMaster/tonyMaster.php"
+
+
+
+---------------------------------------------------------------------------------------------------------
+
+name.php:
+_________
+
+
+	
+	_ahora lo que tenemos que hacer es agregar metadata dentro del archivo principal del plugins, para
+
+	que wordpress, lo detecte como un plugins, que realizará determinadas funciones dentro de la 
+
+	instalación nativa de wordpress ej:
+
+
+	NOTE:	los netadatos los debemos indicar a través, de la estructura de comentarios dentro del código
+
+		de php
+
+
+
+	_tonyMaster.php:
+
+
+		<?php
+
+
+			/*
+
+			Plugin Name: tonyMaster 
+
+			Plugins URL: http://www.tonymaster.com
+
+			Description: plugin de prueba a ver que sale
+
+			Author: tomy gomez
+
+			Version: 1.0
+
+			Author URL: http://massivoproducciones.com
+
+			License: GPL2
+
+			*/
+
+
+		?>
+
+
+
+

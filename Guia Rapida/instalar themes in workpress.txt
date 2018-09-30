@@ -1,0 +1,44 @@
+
+
+
+Instalación Temas de Workpress
+
+
+	http://topwpthemes.com/
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+Acceder a Workpress:
+____________________
+
+
+	_localhost/proyect-name/wp-login.php
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+Instalar Themes:
+________________
+
+
+	_podemos hacer directamente desde el área de Dashboard/Appearance/Themes
+
+
+	_ó ir directamente a la ruta de archivos previamente y pegar el nuevo theme, deseado allí
+
+
+	_luego es recomendable volver al área de Dashboard/Appearance/Themes, seleccionar el theme,
+
+	deseado y darle ha "Activate"
+
+
+
+
+
+

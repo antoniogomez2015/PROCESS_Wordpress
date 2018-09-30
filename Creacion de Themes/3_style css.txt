@@ -1,0 +1,56 @@
+
+
+
+Creación de Themes para Wordpress:
+
+
+
+	Curso de WordPress (20 Videos)
+
+		https://www.youtube.com/playlist?list=PLpOqH6AE0tNisWXuRqbxM5eoKtMjSPrMZ
+
+
+			Aquì quedamos: 
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+-------------------------------------------------------------------------------------------------------´
+
+Archivo Style.css:
+__________________
+
+
+
+	_el archivo style.css, debe de llevar al inicio la siguiente metadata, a través de la estructura
+
+	de comentarios, para que así, el core, de wordpress, reconosca el estilo y que éste pertenece
+
+	a un determinado
+
+
+	/*
+
+
+		Theme Name: MyTheme
+
+		Theme URL: http://www.mytheme.com
+
+		Description: Mi Theme personalizado de Wordpress
+
+		Version: 1.0
+
+		Author: Tony Gomez
+
+		Author URL: http://www.mytheme.com
+
+
+	*/
+
+
+
+
+	

@@ -1,0 +1,65 @@
+
+
+
+migrar proyecto de wordpress de local ha remoto con plugin
+
+	https://www.youtube.com/watch?v=Z7H_2lNuktE
+
+		https://www.youtube.com/watch?v=Z7H_2lNuktE
+
+
+
+Como Mover WordPress de local a Remoto VideoClase Por: Jorge Lemus
+
+	https://www.youtube.com/watch?v=eSttwdVAPVM
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+Copia de seguridad:
+___________________
+
+
+	_primero bajo el protocolo del plugin, hacemos un backup, del proyecto así, nos generará dos
+
+	archivos, un .rar, y un istall.php
+
+
+
+Migrar los achivos:
+___________________
+
+
+	_luego debemos subir al servidor remodo los archivos generados en el paso anterior vía ftp
+
+
+
+Configuración remota:
+_____________________
+
+	_ahora debemos ejecutar el archivo "installer.php", para ésto hacemos su llamodo así:
+
+
+	_http://www.miDominio.com/installer.php
+
+
+	_así, nos aparecerá un wizar, en el cuál podremos hacer un paso a paso del proceso:
+
+
+		_en el paso 1, tendremos que hacer login, con los datos de acceso a la base de datos
+
+		con lo cuáles accedíamos de forma local
+
+
+		_en el paso 2, debemos indicarle las características del nuevo servidor para que éste
+
+		actualice los archivos a la hora de descomprimirlos
+
+
+		_en el paso 3, sirve para hacer un test, a prueba de errores en caso de ser necesario
+
+
+

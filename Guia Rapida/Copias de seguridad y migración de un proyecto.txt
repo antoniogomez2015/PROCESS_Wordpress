@@ -1,0 +1,17 @@
+
+
+
+Copias de seguridad y migración de un proyecto Wordpress local a remoto
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+Trasladar WordPress de localhots al Hosting con XCloner - 1 Parte
+	https://www.youtube.com/watch?v=jyq0lRAwMmw
+
+
+Trasladar WordPress de localhots al Hosting con XCloner - 2 Parte
+	https://www.youtube.com/watch?v=PJRArXow5Go

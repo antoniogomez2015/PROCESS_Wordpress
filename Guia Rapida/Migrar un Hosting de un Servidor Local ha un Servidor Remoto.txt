@@ -1,0 +1,111 @@
+
+
+
+migrar un wordpress de un servidor local ha un servidor remoto
+
+
+	¿Cómo migrar Wordpress de localhost a un hosting?
+		https://www.youtube.com/watch?v=X2xKrk993pE
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+Direccionamiento:
+_________________
+
+
+	_primero vamos ha "Dashboard/Settings/General"
+
+
+	_y en los siguientes campos debemos configurar la ruta de donde será llamado wordpress, en el 
+
+	servidor remoto:
+
+
+		_wordPress Address (URL):
+
+			_debemos indicar el nombre del servidor: ej: "http://hostingdepago.com"
+
+
+		_Site Address (URL):
+
+			_debemos indicar el nombre del servidor: ej: "http://hostingdepago.com"
+
+
+	_por últimos guardamos los cambios
+
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+Exportar bases de datos:
+________________________
+
+
+	_luego vamos a las opciones de bases de datos del servidor local en: "http://localhost/phpmyadmin/",
+
+
+	_luego seleccionamos la bases de datos utilizada por el proyecto de wordpress, y vamos a la sección
+
+	de exportar
+
+
+	_luego seleccionamos la opción de exportación "SQL", y exportamos ésta
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+Migración de archivos:
+______________________
+
+
+	_ahora debemos migrar los archivos del proyectos al servidor remoto a través, de un usuario FTP,
+
+	manteniendo la misma estructura de archivos
+
+	
+
+--------------------------------------------------------------------------------------------------------
+
+Relacionar bases de datos y usuarios:
+_____________________________________
+
+
+	_ahora vamos al panel de control del "servidor remoto/bases de datos"
+
+
+	_leugo debemos crear en el panel del servidor remoto una nueva bases de datos con un nombre
+
+	descriptivo
+
+
+	_luego debemos crear un usuario para la bases de datos con todos los permisos de administrador
+
+
+	_luego vamos al gestor de bases de datos "PhpMyAdmins", y vamos a la sección de importar e 
+
+	importamos la bases de datos que exportamos del servidor local para que así ésta sea cargada
+
+
+	_ahora vamos ha el administrador de archivos dentro del panel de control del servidor remoto
+
+	y vamos a los archivos que hemos subido via FTP, al servidor remoto y abrimos el archivo
+
+	"wp-config.php"
+
+
+	_para así, poder editar los nonbres tantos de:
+
+
+		_database
+
+		_username
+
+		_password
+

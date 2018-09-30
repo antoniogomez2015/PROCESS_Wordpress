@@ -1,0 +1,46 @@
+
+
+
+Creación de Themes para Wordpress:
+
+
+
+	Curso de WordPress (20 Videos)
+
+		https://www.youtube.com/playlist?list=PLpOqH6AE0tNisWXuRqbxM5eoKtMjSPrMZ
+
+
+			Aquì quedamos: 
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+-------------------------------------------------------------------------------------------------------´
+
+Funciones de Desarrollo:
+________________________
+
+
+
+	_wordpress, hace mucho uso de las funciones definidas por el quipo de desarrollo creadas por la 
+
+	
+	_ésta funciones están preparadas para que las usemos y hagan cosas particulares ej:
+
+		
+		_the_content()
+
+
+	_ésta función traería el contenido de una entrada
+		
+
+
+	https://codex.wordpress.org/WordPress_APIs
+
+
+
+
+	

@@ -1,0 +1,100 @@
+
+
+
+Buscador en wordpress
+
+
+	Adjuntar archivos a un formulario con el plugin Contact Form 7
+	
+		https://www.youtube.com/watch?v=XJk3dkz0mtI
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+---------------------------------------------------------------------------------------------------------
+
+Instalación y activación:
+_________________________
+
+
+	_primero procedemos ha descarga, instalar y activar el plugins "contact forma 7"
+
+
+
+---------------------------------------------------------------------------------------------------------
+
+Configuración:
+______________
+
+
+	_luego de haber instalado el plugins vamos a la sección de "Dashboard/Contact"
+
+	
+	_allí entraremos un formulario creado de muestra, èste es: "Contact form 1", el cuál, podremos
+
+	utilizar dándole al botón "Duplicate", para hacer un copia de éste
+
+
+
+	Contact/Tag/Mail:
+	_________________
+
+	
+	_lo primero que debemos configurar son datos del destinatario yendo a las opciones de:
+
+
+	_To: correo de destino
+
+
+	_From: dejar forma por defecto
+
+
+	_Subject: dejar forma por defecto
+
+
+	_Aditional Headers: dejar forma por defecto
+
+
+	_Message Body: podemos configurar èstas opciones a nuestro idioma
+
+
+
+
+	Contact/Tag/Message:
+	____________________
+
+
+	_tenemos también las opciones de configurar los mensajes resultantes a nuestro idioma
+
+
+
+
+	Contac/Tag/Form:
+	________________
+
+
+	_más ahora en la interface del formulario encontraremos un tag, de "file", en cuál, podremos
+
+	indicar los atributos d éste y al final nos dará el código de insersión ej: 
+
+	[file file32 limnit: 2mb]
+
+
+
+---------------------------------------------------------------------------------------------------------
+
+Insersión:
+__________
+
+
+	_más ahora para la insersión de éste formulario en otra página debemos copiar el código generado
+
+	en la parte superior del título de éste, ej: [contact - form 7 id="514" tittle="contact form 1_copy"],
+
+	así, podré pegar éste código en cualquier otra página para su visualización
+
+
+

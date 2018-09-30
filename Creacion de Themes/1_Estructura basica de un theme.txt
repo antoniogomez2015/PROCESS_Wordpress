@@ -1,0 +1,100 @@
+
+
+
+Creación de Themes para Wordpress:
+
+
+
+	Curso de WordPress (20 Videos)
+
+		https://www.youtube.com/playlist?list=PLpOqH6AE0tNisWXuRqbxM5eoKtMjSPrMZ
+
+
+			Aquì quedamos: 
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+-------------------------------------------------------------------------------------------------------´
+
+Estructura de un Theme:
+_______________________
+
+
+
+	_un theme, se conforma principalmente un carpeta base la cuál, de debe de ubicarse en la siguiente 
+
+	ruta: "C:\xampp\htdocs\proof\wp-content\themes\", ésta podría llamarse ej: "MyTheme"
+
+
+	_èsta carpeta base del theme, que éstamos creando debe contener al menos dos "2", archìvos bàsicos
+
+	para wordpress, y los más importantes éstos son:
+
+		_index.php
+
+		_style.css
+
+
+
+	Gerarquía de Archivos:
+	______________________
+
+
+	_todo parte del index.php, y de styles.css, se desprenden los siguientes archivos los cuales
+
+	serán cargados por éste:
+
+
+		_single.php
+
+		_archives.php
+
+		_category.php
+
+		_functions.php
+
+		_pages.php
+
+		_404.php (optional)
+
+		_home.php (optional usado en algunos themes, profesionales)
+
+		_y varios más como:
+
+			_author.php
+
+			_porfolio.php
+
+		
+
+	_por otra parte del index.php, se desprenden los siguientes archivos
+
+
+		_header.php
+
+		_loop.php (optativo)
+
+		_sidebar.php
+
+		_footer.php
+
+
+	_los siguientes son llamados por el index.php, pero a través, de funciones:
+
+		
+		_get_header();
+
+		_get_sidebar();
+
+		_get_footer();
+
+		_get_template_part('loop')
+
+
+
+
+	

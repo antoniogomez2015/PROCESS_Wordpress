@@ -1,0 +1,220 @@
+
+
+
+Instalación de Workpress en Xampp
+
+
+http://simpleyparatodos.blogspot.com/2015/06/video2brain-como-publicar-tu-web.html
+http://simpleyparatodos.blogspot.com/2015/06/video2brain-maquetacion-web-con_23.html
+http://simpleyparatodos.blogspot.com/2015/06/video2brain-usabilidad-web.html
+http://simpleyparatodos.blogspot.com/2015/07/video2brain-responsive-design-ejemplos.html
+http://simpleyparatodos.blogspot.com/2015/07/video2brain-responsive-web-design.html
+http://simpleyparatodos.blogspot.com/2015/04/desarrollo-web-con-django.html
+http://simpleyparatodos.blogspot.com/2015/04/video2brain-fundamentos-de-css.html
+http://simpleyparatodos.blogspot.com/2015/04/video2brain-diseno-web-responsive-con.html
+http://simpleyparatodos.blogspot.com/2015/04/video2brain-patrones-de-diseno-web.html
+http://simpleyparatodos.blogspot.com/2015/04/video2brain-creacion-de-un-sitio-web.html
+http://simpleyparatodos.blogspot.com/2015/04/video2brain-instalacion-y.html
+http://simpleyparatodos.blogspot.com/2015/04/video2brain-50-trucos-con-css.html
+http://simpleyparatodos.blogspot.com/2015/04/video2brain-web-service-con-php.html
+http://simpleyparatodos.blogspot.com/2015/04/video2brain-web-primeros-pasos.html
+http://simpleyparatodos.blogspot.com/2015/04/video2brain-estrategia-y-comunicacion_24.html
+http://simpleyparatodos.blogspot.com/2015/04/video2brain-mi-primera-web-con-wordpress.html
+http://simpleyparatodos.blogspot.com/2015/05/video2brain-fundamentos-de-la.html
+http://simpleyparatodos.blogspot.com/2015/05/video2brain-fundamentos-del-diseno-web.html
+http://simpleyparatodos.blogspot.com/2015/05/video2brain-handlebars-plantillas-en.html
+http://simpleyparatodos.blogspot.com/2014/11/diseno-web-con-illustrator.html
+http://simpleyparatodos.blogspot.com/2014/12/video2brain-dreamweaver-cc-3-responsive.html
+http://simpleyparatodos.blogspot.com/2014/12/video2brain-dreamweaver-cc-2.html
+http://simpleyparatodos.blogspot.com/2014/12/video2brain-dreamweaver-cc1-creacion.html
+http://simpleyparatodos.blogspot.com/2015/01/video2brain-bases-de-datos-nosql-mongodb.html
+http://simpleyparatodos.blogspot.com/2015/01/video2brain-ejemplo-practicvo-de.html
+http://simpleyparatodos.blogspot.com/2015/03/video2brain-trabajo-con-fuentes-web.html
+http://simpleyparatodos.blogspot.com/2015/03/video2brain-fundamentos-de-la.html
+http://simpleyparatodos.blogspot.com/2015/03/video2brain-fundamentos-de-los-cms.html
+http://simpleyparatodos.blogspot.com/2015/03/video2brain-sql-server-2012.html
+http://simpleyparatodos.blogspot.com/2015/03/video2brain-animaciones.html
+http://simpleyparatodos.blogspot.com/2015/03/video2brain-css-con-less-sass.html
+http://simpleyparatodos.blogspot.com/2015/03/video2brain-web-design-fundamentos.html
+http://simpleyparatodos.blogspot.com/2015/03/video2brain-fundamentos-de-las.html
+http://simpleyparatodos.blogspot.com/2015/03/video2brain-desarrollo-web-con.html
+http://simpleyparatodos.blogspot.com/2015/03/video2brain-fundamentos-de-ux-y.html
+http://simpleyparatodos.blogspot.com/2015/03/maquetacion-web-aplicada-para.html
+http://simpleyparatodos.blogspot.com/2015/03/video2brain-fundamentos-de-la_28.html
+http://simpleyparatodos.blogspot.com/2014/11/video2brain-diseno-web-con-photoshop.html
+
+
+
+
+
+
+
+
+
+http://simpleyparatodos.blogspot.com/2015/04/video2brain-wordpress-40.html
+http://simpleyparatodos.blogspot.com/2015/04/video2brain-especial-wordpress-seguridad.html
+http://simpleyparatodos.blogspot.com/2015/04/video2brain-comercio-electronico-con.html
+http://simpleyparatodos.blogspot.com/2015/04/video2brain-wordpress-practico-creacion.html
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+Descargars e Instalaciones:
+___________________________
+
+	_primero debemos instalar el servidor local Xampp
+
+
+	_luego debemos descargar el workpress, en workpress.org
+
+
+	_luego debemos descomprimir el workpress, que descarcamos y crear un carpeta de proyecto
+
+	en la ruta del servidor local Xampp/htdocs/name_proyect, y pegar allí los archivos extraidos
+
+	del workpress
+
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+Bases de Datos:
+_______________
+
+
+
+	_luego debemos crear la base de datos para workpress, para ésto, vamos al panel de control
+
+	"XAMPP Control Panel", y vamos a la sección de "MySQL/Conf"
+
+
+	_y dentro del panel de configuración vamos a la sección de "Bases de datos", y creamos un base
+
+	de datos con el nombre que queramos, indicando un nombre para ésta un cotejamiento, ej
+
+	"nombre: ipm", "Cotejamiento: utf8mb4_unicode_ci", luego le damos ha crear
+
+
+
+	wp-config-sample:
+	_________________
+
+
+	_ahora debemos direccionar la base de datos que hemos creado con nuestro workpress, para ésto,
+
+	vamos ha Xampp/htdocs/ej:ipm/", y abrimos el archivo "wp-config-sample.php", en nuestro editor
+
+	ej, brackers, ó sublime text, y en:
+
+
+	_define('DB_NAME', 'databse_name_here');
+
+		_quedando ej: define('DB_USER', 'ipm');
+
+
+	_define('DB_USER', 'username_here');
+
+		_quedando ej: define('DB_USER', 'root');
+
+
+	_define('DB_PASSWORD', 'password_here');
+
+		_define('DB_PASSWORD', '');
+
+
+	_define('DB_HOST', 'localhost');
+
+
+		_la dejamos tal cuál, está
+
+
+	_por último "guardamos como", el archivo y lo renombramos "wp-config.php", luego podremos
+
+	borrar el archivo de ejemplo "wp-config-sample.php"
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+Instalar y Configurar Workpress:
+________________________________
+
+
+	_luego tengamos agregado workpress, a la estrutura de archivos de xampp, y hayamos creado la base
+
+	de datos y relacionado ésta con workpress, ahora podremos abrir workpress, a través, de su ruta
+
+	de acceso para proceder a configurarlo
+
+
+	_para ésto, vamos a su ruta ej: "http://localhost/ej:ipm/", así se abrirá el proyecto de workpress,
+
+	cambiando la ruta ha "http://localhost/ej:ipm/install.php"
+
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+Istall.php:
+___________
+
+
+
+	_Site Title:
+
+		_
+
+
+	_Username:
+
+		_ej: IPM Aslan
+
+
+	_Password:
+
+		_ej: proyectoIpmAslan
+
+
+	_your E-Mail:
+
+		_
+
+
+	_Privacity:
+
+		_
+
+
+	_Install Workpress:
+
+		_e instalamos workpress
+
+
+http://www.xvideos.com/video11550359/the_levels_of_anal_love_http_ananas4.blogspot.com_https_vk.com_pornhdgroup
+http://www.xvideos.com/video7371427/she_enjoy_anal_sex
+http://www.xvideos.com/video6501973/naudia_nyce_gets_her_butt_fucked_hard
+http://www.xvideos.com/video1357703/layla_jade
+http://es.xhamster.com/movies/5204289/pervcity_katsuni_french_asian_milf_anal_sex.html?from=video_related
+http://es.xhamster.com/movies/5229296/redhead_cougar_takes_anal.html
+http://es.xhamster.com/movies/5231000/pervcity_abbey_brooks_anal_mature.html?s=5&p=44&ref=channels
+http://www.xvideos.com/video1898812/extreme_monster_cunt_fisted_amateur_housewife
+http://www.xvideos.com/video3259108/vintage_rocco_siffredi_full_scene_interracial_gangbang_and_dp
+http://www.xvideos.com/video7381509/jenna_moretti_-_teenage_anal_princess
+http://www.xvideos.com/video4987877/big_boobs_anal_sex_3_-_download_sexy_video_http_www.rqq.co_nmvu
+http://www.xvideos.com/video1605069/viviene_la_roche_and_jean_yves_lecastel
+http://es.xhamster.com/movies/5054113/pervcity_nikki_benz_dirty_mature.html?from=video_related
+http://www.xvideos.com/video8545868/miss_roxy
+http://es.xhamster.com/channels/new-anal-5.html
+http://www.xvideos.com/video11210229/candy_may_-_blowjob_fucking_and_anal
+http://www.xvideos.com/c/10/anal-12
+http://www.xvideos.com/video14528005/buttsex_nymphos_02_jennifer_white_tasha_reign_zoey_monroe_blake_rose_kimmy
+
+

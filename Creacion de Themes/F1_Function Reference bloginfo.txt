@@ -1,0 +1,33 @@
+
+
+
+Creación de Themes para Wordpress:
+
+
+
+	Curso de WordPress (20 Videos)
+
+		https://www.youtube.com/playlist?list=PLpOqH6AE0tNisWXuRqbxM5eoKtMjSPrMZ
+
+
+			Aquì quedamos: 
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+-------------------------------------------------------------------------------------------------------´
+
+Function Reference/bloginfo:
+____________________________
+
+
+	_éste permite asignarle los valores básicos de información al blog, que estamos desarrollando
+
+	_éste suministrará los datos tomados por la sección "Dashboard/Setting/General"
+
+
+
+	

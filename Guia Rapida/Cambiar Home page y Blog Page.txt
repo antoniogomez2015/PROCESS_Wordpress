@@ -1,0 +1,48 @@
+
+
+
+Crear themes chaild in wordpress
+
+
+	Cambiar la página de inicio	
+		https://www.youtube.com/watch?v=sq2PtW6L-M4
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+	_para ésto, vamos ha "Dashboard/Settings-ajustes/Reading-lectura/"
+
+
+	_y seleccionamos la opción de "A static page (select below)" 
+
+	
+	_y en parte inferior podremos seleccionar entre las páginas disponibles cuál, deseamos que sea
+
+	ahora la página de inicio
+
+
+	_así, como también, podremos definir cuál, será la página de blog, ó de post
+
+	
+	_para ésto, previamente ya tenemos que haber creado un página llamada ej blog, si en las opciones
+
+	de template nos la opción de "blog", lo indicamos si no, no hay problema
+
+
+	_luego nos vamos a las opciones de "Dashboard/Settings-ajustes/Reading-lectura/"
+
+
+	_y seleccionamos la opción de "A static page (select below)" 
+
+
+	_y en la parte inferior seleccionamos la opción de "Post page:", y seleccionamos la hermos
+
+	renombrado ej: blog, así, ésta quedará relacionada y operativa
+
+
+
